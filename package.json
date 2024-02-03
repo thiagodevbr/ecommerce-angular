@@ -9,6 +9,7 @@
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
+    "test:dev": "nx test --watchAll",
     "sonar": "sonar-scanner"
   },
   "private": true,
