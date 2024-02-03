@@ -6,12 +6,16 @@
     {
       "files": ["*.ts", "*.tsx"],
       "extends": ["plugin:@nx/typescript"],
-      "rules": {}
+      "rules": {
+        "no-unused-vars": "error"
+      }
     },
     {
       "files": ["*.js", "*.jsx"],
       "extends": ["plugin:@nx/javascript"],
-      "rules": {}
+      "rules": {
+        "no-unused-vars": "error"
+      }
     },
     {
       "files": ["*.ts"],
@@ -35,13 +39,15 @@
             "prefix": "ecommerce",
             "style": "kebab-case"
           }
-        ]
+        ],
+        "no-unused-vars": "error"
       }
     },
     {
       "files": ["*.html"],
       "extends": ["plugin:@nx/angular-template"],
-      "rules": {}
+      "rules": {
+      }
     }
   ]
 }
