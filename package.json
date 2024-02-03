@@ -10,7 +10,8 @@
     "build": "nx build",
     "test": "nx test",
     "test:dev": "nx test --watchAll",
-    "sonar": "sonar-scanner"
+    "sonar": "sonar-scanner",
+    "graph": "npx nx graph"
   },
   "private": true,
   "dependencies": {
