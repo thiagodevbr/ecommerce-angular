@@ -8,6 +8,4 @@ import { LayoutModule } from '@ecommerce/layout'
   selector: 'ecommerce-root',
   template: '<ecommerce-header></ecommerce-header> <router-outlet></router-outlet>',
 })
-export class AppComponent {
-  title = 'ecommerce'
-}
+export class AppComponent {}

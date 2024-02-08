@@ -5,4 +5,8 @@ import { Component } from '@angular/core'
   templateUrl: './header.component.html',
   styleUrl: './header.component.scss',
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+  soma(a: number, b: number) {
+    return a + b
+  }
+}
