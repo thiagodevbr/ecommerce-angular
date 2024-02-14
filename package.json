@@ -11,7 +11,8 @@
     "test": "nx test",
     "test:dev": "nx test --watchAll",
     "sonar": "sonar-scanner",
-    "graph": "npx nx graph"
+    "graph": "npx nx graph",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -56,10 +57,12 @@
     "eslint": "~8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-cypress": "^2.13.4",
+    "husky": "^8.0.0",
     "jest": "^29.4.1",
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~13.1.4",
     "jsonc-eslint-parser": "^2.1.0",
+    "lint-staged": "^15.2.2",
     "nx": "17.2.8",
     "prettier": "^2.6.2",
     "sonar-scanner": "^3.1.0",
