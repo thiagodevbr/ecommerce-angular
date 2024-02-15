@@ -1,4 +1,4 @@
-import { Component } from '@angular/core'
+import { Component, Input } from '@angular/core'
 
 @Component({
   selector: 'ecommerce-header',
@@ -6,7 +6,5 @@ import { Component } from '@angular/core'
   styleUrl: './header.component.scss',
 })
 export class HeaderComponent {
-  soma(a: number, b: number) {
-    return a + b
-  }
+  @Input({ required: true }) titleHeader!: string
 }

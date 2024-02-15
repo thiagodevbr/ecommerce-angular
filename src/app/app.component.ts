@@ -6,6 +6,6 @@ import { LayoutModule } from '@ecommerce/layout'
   standalone: true,
   imports: [RouterModule, LayoutModule],
   selector: 'ecommerce-root',
-  template: '<ecommerce-header></ecommerce-header> <router-outlet></router-outlet>',
+  template: '<ecommerce-header titleHeader="Ecommerce"></ecommerce-header> <router-outlet></router-outlet>',
 })
 export class AppComponent {}
