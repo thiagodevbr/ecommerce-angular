@@ -1,12 +1,16 @@
 header {
+  background: #6f25f1;
+
+  .container {
     display: flex;
     align-items: center;
-    width: 100%;
+    max-width: 1280px;
     height: 60px;
-    padding: 20px;
-    background: #6f25f1;
+    margin: 0 auto;
 
     h1 {
-        color: #fff;
+      color: #fff;
+      margin: 0;
     }
+  }
 }
