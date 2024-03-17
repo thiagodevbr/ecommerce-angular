@@ -1,9 +1,11 @@
 <header>
   <div class="container">
     <h1>{{ titleHeader }}</h1>
+    <div class="middle">
+      <ng-content select="[middle]"></ng-content>
+    </div>
+    <div class="right">
+      <ng-content select="[right]"></ng-content>
+    </div>
   </div>
 </header>
-
-<!-- <form name="formTest" id="formTest">
-  <input type="text" name="test" placeholder="Test" id="test" />
-</form> -->

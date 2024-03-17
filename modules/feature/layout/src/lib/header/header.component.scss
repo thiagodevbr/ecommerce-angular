@@ -1,16 +1,31 @@
 header {
-  background: #6f25f1;
+  background: var(--white);
+  box-shadow: 0 0 150px 200px rgba(255, 255, 255, 1);
 
   .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     max-width: 1280px;
-    height: 60px;
+    height: 80px;
     margin: 0 auto;
 
     h1 {
-      color: #fff;
+      color: var(gray-800);
+      font-weight: 600;
       margin: 0;
+    }
+
+    .middle {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      position: relative;
+      padding: 0 12px;
+    }
+
+    .right {
+      min-width: 200px;
     }
   }
 }
